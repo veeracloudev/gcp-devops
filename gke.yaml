@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: gcpdevops
-        image: gcr.io/gcp-project-415616/gcpdevops:latest
+        image: gcr.io/gcp-project-415616/gcpdevops@sha256:292568578be065889266dac2e078beb67b95e15c910fce88faa9d814c9712632
         ports:
         - containerPort: 5000
         env:
