@@ -13,4 +13,5 @@ steps:
   - --location=us-central1-c
   - --cluster=gcp-project
   - --namespace=gcp-project-prod
+  
 
