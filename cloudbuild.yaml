@@ -5,7 +5,7 @@ steps:
 - name: 'docker'
   args: ["push", "gcr.io/$PROJECT_ID/gcpdevops"]
 
-- name: 'docker'
+- name: 'docker gke'
   args:
   - run
   - --filename=gke.yaml
